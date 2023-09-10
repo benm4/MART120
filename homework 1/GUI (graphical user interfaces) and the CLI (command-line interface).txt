@@ -1,0 +1,5 @@
+The differences between GUI and CLI are quite big, for example GUI is a much slower software while CLI is much faster! GUI is so slow as it requires more memory because of 
+all of the graphical components. Meanwhile CLI does not require very much memory. Slower is probably a deal breaker for some so if that's you CLI is the way to go! BUt if you're 
+a begginner I'd reccommend GUI because it's less confusing and much more beginner friendly. CLI user needs to have a good knowledge of commands, etc.. and while CLI is not 
+very flexible GUI is. There's plenty of small differences with both of these softwares and I listed just a few! 
+
