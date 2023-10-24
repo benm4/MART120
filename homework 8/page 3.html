@@ -1,0 +1,50 @@
+</html>
+    <title>Page 3</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script>
+        
+        function checkboxes()
+        {
+            var firstName = document.getElementById("fName").value;
+            if(firstName == "")
+            {
+                document.getElementById("fName").focus();
+                document.getElementById("fName").style.backgroundColor = "red";
+                document.getElementById("fNameMessage").innerHTML = "* Required";
+                document.getElementById("fNameMessage").style.color = "red";
+                document.getElementById("f2Name").focus();
+                document.getElementById("f2Name").style.backgroundColor = "red";
+                document.getElementById("f2NameMessage").innerHTML = "* Required";
+                document.getElementById("f2NameMessage").style.color = "red";
+                document.getElementById("f3Name").focus();
+                document.getElementById("f3Name").style.backgroundColor = "red";
+                document.getElementById("f3NameMessage").innerHTML = "* Required";
+                document.getElementById("f3NameMessage").style.color = "red";
+                return false;
+            }
+            
+        }
+    </script>
+</head>
+
+</head>
+
+<body style="background-color: rgb(185, 236, 180);">
+    
+        <h1>Contact Us</h1>
+        <p></p>
+        
+            <p>First Name: <input type="text" id="fName">&nbsp;<span id="fNameMessage"></span></p>
+            <p>Last Name: <input type="text" id="f2Name">&nbsp;<span id="f2NameMessage"></span></p>
+            <p>Email: <input type="text" id="f3Name">&nbsp;<span id="f3NameMessage"></span></p>
+            <button id="btnSubmit" class="btn btn-primary" onclick='checkboxes();'>Submit My Info</button>
+        </form>
+        <p><a href="c:\Users\benmc\Downloads\page 1.html" style="font-size:21px;">Homepage</a>
+            &nbsp;|&nbsp;<a href="c:\Users\benmc\Downloads\page 2.html" style="font-size: 21px; color:rgb(134, 196, 152);">Short Story</a></p>
+   
+        </body>
+    </html>
